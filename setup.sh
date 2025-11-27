@@ -19,7 +19,6 @@ brew install nvm
 mkdir -p ~/.nvm
 echo 'export NVM_DIR="$HOME/.nvm"' >> ~/.zshrc
 echo '[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"' >> ~/.zshrc
-source ~/.zshrc
 
 # --- Node.js LTS + Latest ---
 echo "🟢 Installing Node.js (LTS + Latest)..."
